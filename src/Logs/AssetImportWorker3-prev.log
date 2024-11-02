@@ -1,0 +1,451 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 20293 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Workers\Unity\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Workers/Broken_Game/src
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54084
+Successfully changed project path to: D:/Workers/Broken_Game/src
+D:/Workers/Broken_Game/src
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9512] Host "[IP] 172.23.64.1 [Port] 0 [Flags] 2 [Guid] 2833523220 [EditorId] 2833523220 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FDNULDA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9512] Host "[IP] 172.23.64.1 [Port] 0 [Flags] 2 [Guid] 2833523220 [EditorId] 2833523220 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FDNULDA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 79.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path D:/Workers/Unity/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Workers/Broken_Game/src/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+    Driver:   26.21.14.3650
+Initialize mono
+Mono path[0] = 'D:/Workers/Unity/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Workers/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Workers/Unity/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Workers/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Workers/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/Workers/Unity/2022.3.17f1c1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.067541 seconds.
+- Loaded All Assemblies, in  1.134 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (265ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (756ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.276 seconds
+Refreshing native plugins compatible for Editor in 30.94 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.148 seconds
+Domain Reload Profiling: 4374ms
+	BeginReloadAssembly (456ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (166ms)
+	LoadAllAssembliesAndSetupDomain (1488ms)
+		LoadAssemblies (1241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (532ms)
+			TypeCache.Refresh (450ms)
+				TypeCache.ScanAssembly (414ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (1214ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 32.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (136.0 KB). Loaded Objects now: 5736.
+Memory consumption went from 189.1 MB to 189.0 MB.
+Total: 8.431000 ms (FindLiveObjects: 0.743900 ms CreateObjectMapping: 0.794100 ms MarkObjects: 6.631100 ms  DeleteObjects: 0.259300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17254.554304 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_168.asset
+  artifactKey: Guid(ebda5a7fe16811d4bbf5fe344a88dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_168.asset using Guid(ebda5a7fe16811d4bbf5fe344a88dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15d6f08d36263e1c09cf0d2a52d53d') in 0.115512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.108566 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_169.asset
+  artifactKey: Guid(77f5a09dcb53a024180185878c2aa7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_169.asset using Guid(77f5a09dcb53a024180185878c2aa7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71e4162a650be0275ec21b3b6f3d70a') in 0.015854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171 2.asset
+  artifactKey: Guid(3562204293c14b843a9edcb06ac9acd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171 2.asset using Guid(3562204293c14b843a9edcb06ac9acd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd389e016fce781d2f7011d53863452') in 0.015404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_173.asset
+  artifactKey: Guid(81a256bb5ac2ee047ab006e4b7923e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_173.asset using Guid(81a256bb5ac2ee047ab006e4b7923e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf125b73e8345d2757b54fa3b242e8b') in 0.015326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_173 1.asset
+  artifactKey: Guid(821aec0288bc31647bc294044c711d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_173 1.asset using Guid(821aec0288bc31647bc294044c711d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a231537eba7566a5d23f97e6d3113b1b') in 0.008085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171.asset
+  artifactKey: Guid(1ff3531c1d68e6546a641b20ba74bffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171.asset using Guid(1ff3531c1d68e6546a641b20ba74bffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b11828906bdfbb4b364673b9b9e73') in 0.014679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_172 2.asset
+  artifactKey: Guid(e278d3e7ac78789448323b726401e6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_172 2.asset using Guid(e278d3e7ac78789448323b726401e6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e48499b93c4675ef21dec8a86bfb45') in 0.015196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_170.asset
+  artifactKey: Guid(dcc560caf7550ec48a752fcec9d7816a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_170.asset using Guid(dcc560caf7550ec48a752fcec9d7816a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119960a61758ec97a484eac94d370279') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_169 1.asset
+  artifactKey: Guid(c4268f2d3f2b58848a98393bd440e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_169 1.asset using Guid(c4268f2d3f2b58848a98393bd440e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c646025126c81098045bcf2caf1cfe65') in 0.009354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171 1.asset
+  artifactKey: Guid(185d040a3ea105f448194b2265ca141d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_171 1.asset using Guid(185d040a3ea105f448194b2265ca141d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0552f400219d78a006d071caafbbee87') in 0.008154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.843461 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_132.asset
+  artifactKey: Guid(4589b48ce87e73a44892b2f45a6be1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_132.asset using Guid(4589b48ce87e73a44892b2f45a6be1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdb936baba41a8195909a8c7fab5163') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_133.asset
+  artifactKey: Guid(620e8298678d00644ac12eda8e9f2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_133.asset using Guid(620e8298678d00644ac12eda8e9f2cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6717e1c7c6a0d602519ff08a9a11ecff') in 0.018670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_135 1.asset
+  artifactKey: Guid(878c6d21097f119469e09d4980bff144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_135 1.asset using Guid(878c6d21097f119469e09d4980bff144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4c70cf3a9152aac31652bad257a1d3') in 0.011829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137.asset
+  artifactKey: Guid(5c6c6b9c23c106048b0790d83699fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137.asset using Guid(5c6c6b9c23c106048b0790d83699fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ba81c584496c50d67c24278f02fe30') in 0.020100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137 2.asset
+  artifactKey: Guid(d23ab54f48e810c48b20289eb07cfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137 2.asset using Guid(d23ab54f48e810c48b20289eb07cfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10937d2c660d86194eee49feb0bd00dd') in 0.019209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_132 2.asset
+  artifactKey: Guid(759f1c8eb3111474b9ef1f05b2feef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_132 2.asset using Guid(759f1c8eb3111474b9ef1f05b2feef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87025848cc8e95a2c5ee44671aa4d804') in 0.017954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_133 1.asset
+  artifactKey: Guid(57fa68de4eb07e14c932c5a135f05026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_133 1.asset using Guid(57fa68de4eb07e14c932c5a135f05026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1122258def32d128b8c8cc741a3a322a') in 0.009742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_135 2.asset
+  artifactKey: Guid(b12f816c2bcd1464794445c188292611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_135 2.asset using Guid(b12f816c2bcd1464794445c188292611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ba9c16b2383a8b564433126c343ebe') in 0.018486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137 1.asset
+  artifactKey: Guid(0bbb7ed412e61b642bd19115d06a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_137 1.asset using Guid(0bbb7ed412e61b642bd19115d06a6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93fc116686fb545df161eb58df8397c') in 0.009658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_134 2.asset
+  artifactKey: Guid(4945ef6ae6e83a948a06a931173c0e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_134 2.asset using Guid(4945ef6ae6e83a948a06a931173c0e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d5e3c163fa18b48a5524797743e97c') in 0.016143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.242549 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_130.asset
+  artifactKey: Guid(1256ec5f5af6aa24a8ad54d10b698e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_130.asset using Guid(1256ec5f5af6aa24a8ad54d10b698e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd467dca885387833103ec43d71fe1a4d') in 0.023294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_131.asset
+  artifactKey: Guid(19d5b182f8e257f45ac3463114d829d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_131.asset using Guid(19d5b182f8e257f45ac3463114d829d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9d0825f03f063e32a506418d86133a') in 0.023103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_131 1.asset
+  artifactKey: Guid(ac0d3a5ad315b0a439ee02c7575bd4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_131 1.asset using Guid(ac0d3a5ad315b0a439ee02c7575bd4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c37fb1646d03fdf63c3cf6f48a785b8') in 0.011579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.054197 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_146.asset
+  artifactKey: Guid(7a255cddf0f2c0a4fb733dbf99339c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_146.asset using Guid(7a255cddf0f2c0a4fb733dbf99339c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5ed140e68eb0d2735076f23e0bb92e') in 0.023460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_147 2.asset
+  artifactKey: Guid(a4fd8a2a4f538244a9e172207dc1abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_147 2.asset using Guid(a4fd8a2a4f538244a9e172207dc1abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77bcd1e8154bc7e9cbb36c4c10d9cfe') in 0.023682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001198 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_148 2.asset
+  artifactKey: Guid(28514dc21acc84c419f432726b61fc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_148 2.asset using Guid(28514dc21acc84c419f432726b61fc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e04f94d015d2eb5ee248f30704cce8') in 0.026124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_148 1.asset
+  artifactKey: Guid(9f2c15f5e1cf87a45abc9597f8e499ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_148 1.asset using Guid(9f2c15f5e1cf87a45abc9597f8e499ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5337361ae25ba90d3df31005dcdabd2b') in 0.013426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_150.asset
+  artifactKey: Guid(65f41854f0c951c4eb8eb4cb5f475bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_150.asset using Guid(65f41854f0c951c4eb8eb4cb5f475bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c9e5cf67742a084ab781fec52bed87') in 0.025130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_149 2.asset
+  artifactKey: Guid(a8db58f7ef159bb4383435b842844290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_149 2.asset using Guid(a8db58f7ef159bb4383435b842844290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f291b59644f2aef760007bd81c522ef') in 0.019265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_150 1.asset
+  artifactKey: Guid(0951d5f745adeea43be6b289a866577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_150 1.asset using Guid(0951d5f745adeea43be6b289a866577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edfdb75c87ea408c126bc77fc984737') in 0.010498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_149.asset
+  artifactKey: Guid(8ec66aa2f6ac51447b95ef25fde9d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_149.asset using Guid(8ec66aa2f6ac51447b95ef25fde9d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26ce1424618db070359960d0f2f8eec') in 0.024678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_151 2.asset
+  artifactKey: Guid(457d95b3621792d4a8847b44ca8d8144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_151 2.asset using Guid(457d95b3621792d4a8847b44ca8d8144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b94c5f319e34ee88fdef983578e66ab') in 0.033106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_147 1.asset
+  artifactKey: Guid(f9259ee08869f3a47a9ef611a8628207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SunnyLand Artwork/Environment/Forest/Tiles_147 1.asset using Guid(f9259ee08869f3a47a9ef611a8628207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512c5f9cb79e8a80c58bea62b38d411') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
