@@ -1,0 +1,6 @@
+.vscode/
+.code/
+Lbrary/
+Other/
+Cache
+*.cache
